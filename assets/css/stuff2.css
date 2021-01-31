@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 100px;
+    margin-left: 100px;
+    height:1000px;  
+    background-color: #c1c1c196;
+}
+.image{
+    width:25%;
+    float: left;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px
+}
+.image h1{margin-bottom: 15px}
+.image p{margin-top: 0px}
+.image ul li{
+     list-style: none;
+     float: left;
+     width: 50px;
+     margin-left: 5px;
+    
+}
+.image ul li i{
+    width: 40;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #efe7e7cc;
+    height: 40;
+    padding-top: 12px;
+}
+
+.large{
+    width: 72%;
+    width: 72%;
+    float: right;  
+}
+
+.large .lag1{
+    width: 91%;
+    overflow: hidden;
+}
+
+.large .lag1 .lg{  
+    border: 0.4px solid #6ca6c7e0;
+    width: 162px;
+    height: 150px;
+    float: left;
+    color: black;
+    font-family: arial;
+    text-align: center;
+    border-right: hidden;
+    padding-top: 36px;transition: 0.5s ease;
+}
+.large .lag1 .lg:hover{
+    box-shadow: 3px 6px 17px 2px #e8e8e8;
+    color: #101ba7;background-color:#f1f1f1;
+}
+.large .lag1 .lg:last-of-type{
+    border: 0.4px solid #6ca6c74f;
+}
+
+.large .lag1 .lg h1{
+    font-family:  arial;
+    font-size: 20px;
+}
+ .clear
+ {
+    clear: both;
+ }
+.large .lag2{
+    width:91%;  
+    border: 0.4px solid #6ca6c76e;
+    overflow: hidden;
+    margin-top: 30px
+}
+.large .lag2 h1{
+    font-family: Larch;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 15px;
+    color: #101ba7;
+} hr{ border: 0.4px solid #6ca6c76e}
+.large .lag2 .Aboutinfo{
+    float: left;
+    display:block;
+    width: 55%;
+    margin-left: 10px
+}
+.large .lag2 .Aboutinfo h2 ,
+.large .lag2 .myskills h2{
+     font-family: arial;
+}
+.large .lag2 .Aboutinfo label {
+    font-size: 25px;
+    font-family: arial;
+    float: left;
+    color: black;
+}
+.large .lag2 .Aboutinfo input{
+    display: block;
+    width: 215px;
+    height: 40;
+    margin-left: 100;
+    border: 0.4px solid #67abbf2e;
+    border-width: 2.2px;
+    margin-bottom: 15px;
+    background-color:#c1c1c11f;
+    font-family: arial;
+    font-size: 10px;
+    font-family: arial;
+    font-size: 15px
+}
+
+.large .lag2 .myskills{
+    float: right;
+    display:block;
+    width: 42%;
+}
+
+.large .lag2 .myskills input{
+    
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-bottom: 15px solid #1d75a9e0;
+    border-width: 2.2px;
+    margin-bottom: 15px;
+    border-top-color: #a52a2a00;
+    border-left-color: #deb88700;
+    border-right-color: #deb88700; 
+    background-color: #c1c1c11f;
+    font-family: arial;
+    font-size: 15px
+}
+
+
+
